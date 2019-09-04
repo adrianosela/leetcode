@@ -1,8 +1,8 @@
 package most_frequent_subtree_sum
 
 type TreeNode struct {
-	Val int
-	Left *TreeNode
+	Val   int
+	Left  *TreeNode
 	Right *TreeNode
 }
 
