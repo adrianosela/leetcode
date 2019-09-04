@@ -1,0 +1,1 @@
+![](../../.assets/beautiful_arrangement.png)
