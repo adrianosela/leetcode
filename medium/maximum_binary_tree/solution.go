@@ -34,7 +34,7 @@ func constructMaximumBinaryTree(nums []int) *TreeNode {
 	if maxIndex == len(nums)-1 {
 		return &TreeNode{
 			Val:  max,
-			Left: constructMaximumBinaryTree(nums[:len(nums)-1]),
+			Left: constructMaximumBinaryTree(nums[:maxIndex]),
 		}
 	}
 
